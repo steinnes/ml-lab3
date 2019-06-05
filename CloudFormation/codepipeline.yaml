@@ -214,7 +214,7 @@ Resources:
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
-        Image: aws/codebuild/python:3.4.5
+        Image: aws/codebuild/python:3.5.2
       Source:
         Type: CODEPIPELINE
         BuildSpec: !Sub |
@@ -242,7 +242,7 @@ Resources:
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
-        Image: aws/codebuild/python:3.4.5
+        Image: aws/codebuild/python:3.5.2
       Source:
         Type: CODEPIPELINE
         BuildSpec: !Sub |
